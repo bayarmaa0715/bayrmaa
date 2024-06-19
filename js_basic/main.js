@@ -280,3 +280,96 @@ if (k1 < k2 && k1 < k3) {
 } else if (k3 < k1 && k3 < k2) {
   console.log("Хамгийн бага тоо:", k3);
 }
+
+let at1 = 88,
+  at2 = 108,
+  at3 = 89;
+let bt1 = 88,
+  bt2 = 91,
+  bt3 = 110;
+if (
+  (at1 + at2 + at3) / 3 > (bt1 + bt2 + bt3) / 3 &&
+  bt1 + bt2 + bt3 > 100 &&
+  at1 + at2 + at3 > 100
+) {
+  console.log("Түхүүлсэн баг:a team award");
+} else if (
+  (at1 + at2 + at3) / 3 < (bt1 + bt2 + bt3) / 3 &&
+  bt1 + bt2 + bt3 > 100 &&
+  at1 + at2 + at3 > 100
+) {
+  console.log("Түхүүлсэн баг:b team award");
+} else if (
+  (at1 + at2 + at3) / 3 < (bt1 + bt2 + bt3) / 3 &&
+  bt1 + bt2 + bt3 > 100 &&
+  at1 + at2 + at3 < 100
+) {
+  console.log("Түхүүлсэн баг:b team award");
+} else if (
+  (at1 + at2 + at3) / 3 > (bt1 + bt2 + bt3) / 3 &&
+  bt1 + bt2 + bt3 < 100 &&
+  at1 + at2 + at3 > 100
+) {
+  console.log("Түхүүлсэн баг:a team award");
+} else if (
+  (at1 + at2 + at3) / 3 >= (bt1 + bt2 + bt3) / 3 &&
+  bt1 + bt2 + bt3 < 100 &&
+  at1 + at2 + at3 < 100
+) {
+  console.log("Түхүүлсэн баг:Ялагч байхгүй");
+} else if (
+  (at1 + at2 + at3) / 3 <= (bt1 + bt2 + bt3) / 3 &&
+  bt1 + bt2 + bt3 < 100 &&
+  at1 + at2 + at3 < 100
+) {
+  console.log("Түхүүлсэн баг:Ялагч байхгүй");
+} else if (
+  (at1 + at2 + at3) / 3 === (bt1 + bt2 + bt3) / 3 &&
+  bt1 + bt2 + bt3 > 100 &&
+  at1 + at2 + at3 > 100
+) {
+  console.log("Түхүүлсэн баг:Багуудын оноо тэнцсэн");
+}
+
+let height = 140,
+  ageChild = 9,
+  hasAdult = true;
+if (height >= 140 && ageChild >= 10) {
+  console.log("Дугуй унаж болох эсэх: Тийм");
+} else {
+  console.log("Дугуй унаж болох эсэх: Үгүй");
+}
+if ((hasAdult = true)) {
+  console.log("Дугуй унаж болох эсэх: Тийм");
+} else {
+  console.log("Дугуй унаж болох эсэх: not allowed to ride");
+}
+
+let r1 = 7,
+  r2 = 22,
+  r3 = 13,
+  r4 = 30;
+if (r1 % 11 > 0) {
+  r1 = r1;
+} else {
+  r1 = 0;
+}
+
+if (r2 % 11 > 0) {
+  r2 = r2;
+} else {
+  r2 = 0;
+}
+
+if (r3 % 11 > 0) {
+  r3 = r3;
+} else {
+  r2 = 0;
+}
+
+if (r4 % 11 > 0) {
+  r4 = r4;
+} else {
+  r4 = 0;
+}
+console.log("11д хуваагддаг тооны нийлбэр:", r1 + r2 + r3 + r4);
