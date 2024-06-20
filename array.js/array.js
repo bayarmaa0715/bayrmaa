@@ -44,7 +44,7 @@ for (let i = 0; i < nums.length; i++) {
   niilber = niilber + nums[i];
   //   console.log("Niilber: ", niilber);
 }
-for (let i = 0; i < nums.length; i++) {
+for (let i = 0; i < nums.ength; i++) {
   average = niilber / nums.length;
 }
 for (let i = 0; i < nums.length; i++) {
