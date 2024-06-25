@@ -1,0 +1,19 @@
+.box {
+  width: 100px;
+  height: 100px;
+  border: 0.1px solid black;
+  /* border-radius: 20%; */
+}
+
+.box_container {
+  margin-top: 10px;
+  grid-template-columns: repeat(11, 100px);
+  gap: 10px;
+  display: grid;
+}
+.bigBox {
+  border-radius: 50%;
+  /* width: 200px;
+  height: 200px; */
+  border: 1px solid rgb(240, 37, 37);
+}
