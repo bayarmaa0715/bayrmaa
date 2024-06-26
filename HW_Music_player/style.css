@@ -22,3 +22,67 @@ p {
 .song {
   /* display: none; */
 }
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+button {
+  font-size: 80px;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+#btnPause {
+  display: none;
+}
+
+audio::-webkit-media-controls-panel {
+  /* display: none; */
+  background-color: rgba(218, 120, 133, 0.601);
+}
+audio::-webkit-media-controls-mute-button {
+  display: none;
+}
+audio::-webkit-media-controls-play-button {
+  display: none;
+}
+audio::-webkit-media-controls-timeline-container {
+  display: none;
+}
+audio::-webkit-media-controls-current-time-display {
+  display: none;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
+audio::-webkit-media-controls-timeline {
+  /* display: none; */
+}
+audio::-webkit-media-controls-volume-slider-container {
+  display: none;
+}
+audio::-webkit-media-controls-volume-slider {
+  display: none;
+}
+audio::-webkit-media-controls-seek-back-button {
+  display: none;
+}
+audio::-webkit-media-controls-seek-forward-button {
+  display: none;
+}
+audio::-webkit-media-controls-fullscreen-button {
+  display: none;
+}
+audio::-webkit-media-controls-rewind-button {
+  display: none;
+}
+audio::-webkit-media-controls-return-to-realtime-button {
+  display: none;
+}
+audio::-webkit-media-controls-toggle-closed-captions-button {
+  display: none;
+}
